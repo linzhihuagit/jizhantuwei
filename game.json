@@ -1,0 +1,40 @@
+{
+    "deviceOrientation": "portrait",
+    "networkTimeout": {
+        "request": 5000,
+        "connectSocket": 5000,
+        "uploadFile": 5000,
+        "downloadFile": 500000
+    },
+    "subPackages": [
+        {
+            "name": "Game",
+            "root": "/subpackages/Game/"
+        },
+        {
+            "name": "AudioAssets",
+            "root": "/subpackages/AudioAssets/"
+        },
+        {
+            "name": "LevelData",
+            "root": "/subpackages/LevelData/"
+        },
+        {
+            "name": "Roles",
+            "root": "/subpackages/Roles/"
+        },
+        {
+            "name": "UI",
+            "root": "/subpackages/UI/"
+        }
+    ],
+    "iOSHighPerformance": true,
+    "__warning__": "无效的 game.json [\"iOSHighPerformance\"]",
+    "gamePlugins": {
+        "cocos": {
+            "version": "3.6.1",
+            "provider": "wx0446ba2621dda60a",
+            "path": "cocos"
+        }
+    }
+}
